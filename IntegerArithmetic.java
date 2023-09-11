@@ -15,11 +15,14 @@ public class IntegerArithmetic
         // Decrease number by a factor of 10
         // and get next digit
         number = number / 10;
+        System.out.println(number);
         digit = number % 10;
         System.out.println(digit);
         
         System.out.println(99-99.0/10);
         System.out.println("sum of numbers: " + (4 + 5));
+        
+        System.out.println(3.0 / 2);
         
     }// end main
 }// end clas
