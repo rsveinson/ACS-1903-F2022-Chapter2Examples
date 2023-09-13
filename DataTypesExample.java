@@ -54,7 +54,7 @@ public class DataTypesExample {
         // iResult = 6 / 3;         // ok no problem
         // System.out.println(iResult);
         
-        // iResult = 6 / (int)3.0;       // nope doesn't work
+        // iResult = 6 / 3.0;       // nope doesn't work
         // System.out.println(iResult);
         
         // dResult = i1 / i2;
