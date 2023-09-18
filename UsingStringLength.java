@@ -31,5 +31,10 @@ public class UsingStringLength
         
         int l = sub.trim().length();
         System.out.println(l);
+        
+        // other methods
+        
+        // note that toUpperCase() affects only the letters
+        System.out.println(password.toUpperCase());
     }
 }
