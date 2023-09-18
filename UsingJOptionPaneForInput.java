@@ -14,6 +14,7 @@ public class UsingJOptionPaneForInput
             
         System.out.println ("Your name is:"+firstName+" "+lastName);
         
+        // added to the textbook sample code
         int n = Integer.parseInt(JOptionPane.showInputDialog("enter a number"));
         double d = Double.parseDouble(JOptionPane.showInputDialog("give me a decimal"));
     }
