@@ -14,12 +14,12 @@ public class UsingStringEquals
         b = s1 == s3;
         System.out.println(b);
         
-        // Display s1 and s2
+        // Display s1 and s3
         // Display true or false according
         //  to whether they are equal or not
         System.out.println("The strings");
         System.out.println(s1);
-        System.out.println(s2);
+        System.out.println(s3);
         
         boolean equalsResult = s1.equals(s3);
         System.out.println(equalsResult);
