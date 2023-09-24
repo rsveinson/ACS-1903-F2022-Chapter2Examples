@@ -14,7 +14,8 @@ public class UsingStringTrim
         // print a trimmed version
         System.out.print("SIN is");
         System.out.print(sin.trim());
-        System.out.println("Hahaaah");
+        System.out.println(sin = "Hahaaah");
+        //System.out.print(sin.toUpperCase());
         
         // use trim() to remove leading and trailing spaces;
         sin = sin.trim();

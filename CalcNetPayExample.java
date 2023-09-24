@@ -44,6 +44,7 @@ public class CalcNetPayExample {
 
 
         netPay =  grossPay - deductions - ((grossPay - deductions) * taxRate);   
+        
     // ***** output *****
     
         System.out.println("Gross Pay:\t" + grossPay);
