@@ -44,6 +44,9 @@ public class JOPAndStringsSupplement{
         ch = st.charAt(8);
         System.out.println("charAt(8) " + ch);
         
+        // should cause an index out of bounds error
+        ch = st.charAt(l);
+        
         // indexOf()
         System.out.println();
         System.out.println(st);
